@@ -1,0 +1,53 @@
+/* src/Modal.css */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* Garante que o modal fique por cima de tudo */
+}
+
+.modal-main {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    /* Largura máxima do modal */
+    text-align: center;
+    position: relative;
+    /* Define a posição relativa para posicionamento interno */
+}
+
+.modal-main img {
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura do modal */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    border-radius: 8px;
+    /* Adiciona borda arredondada à imagem, se necessário */
+}
+
+
+.click {
+    margin-bottom: 5px;
+}
+
+.display-block {
+    display: flex;
+}
+
+.display-none {
+    display: none;
+}
+
+.loading-icon {
+    color: blue;
+    padding: 5px;
+}
